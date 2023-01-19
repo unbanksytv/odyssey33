@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Degen Vibes Ohmly";
+const description = "Degen Vibes Ohmly";
 const startCountFrom = 0;
 // Optional, change hasBaseUri to true if your  images pre-uploaded to IPFS
 const hasBaseUri = false;
@@ -30,13 +30,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 3333,
     layersOrder: [
-      { name: "background", options: { displayName: "Background" } },
-      { name: "eyeball", options: { displayName: "Eyeball" } },
-      { name: "eyecolor", options: { displayName: "Eye Color" } },
-      { name: "iris", options: { displayName: "Iris" } },
-      { name: "shine", options: { displayName: "Shine" } }
+      { name: "Background" },
+      { name: "Background_P", options: { blend: MODE.multiply, opacity: 0.9 } },
+      { name: "Body_N" },
+      { name: "Mask_N" },
+      { name: "Accessories_N" },
+      { name: "Glasses_N" },
     ],
   },
 ];
@@ -84,7 +85,9 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  creator: "DVO",
+};
 
 const rarityDelimiter = "#";
 
