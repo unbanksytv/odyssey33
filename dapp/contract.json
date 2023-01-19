@@ -1,0 +1,8 @@
+{
+    "name": "Degen Vibes",
+    "description": "Degens mix DeFi with NFTs",
+    "image": "https://degendogs.club/images/0.png",
+    "external_link": "https://odysseydao.gitbook.io/beramarket/nftfi-integrations/archived/good-vibes-ohmly",
+    "seller_fee_basis_points": 1000,
+    "fee_recipient": "0xb6021d0b1e63596911f2cCeEF5c14f2db8f28Ce1"
+}
