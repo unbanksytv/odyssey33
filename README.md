@@ -1,4 +1,4 @@
-Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. 
+Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. Degen Vibes are NFTs that stream DeFi tokens to holders in real-time. Degen Vibes are minted and sold via auction, one at a time. A portion of auction proceeds are invested in DeFi and streamed to collectors. A portion of proceeds are kept in the treasury, controlled by a DAO of Degens.
 
 # Degen Vibes
 
