@@ -43,6 +43,8 @@ Art Work may be submitted and voted on by the club, with winning artists earning
 
 cc0 places emphasis on our ability to communicate a story, build a world and bring others along.
 
+The Nouns brand and artwork are in the public domain or “CC0″. This essentially means that you can do whatever you want with it without worrying about any kind of copyright infringement. Not only does the Nouns DAO allow you to repurpose the artwork and brand, but it actually encourages you do to so — and may even pay you for it! All the money generated from the Nouns auctions goes directly to the DAO treasury. The treasury currently holds more than 27,000 ETH. The treasury exists for Nouns DAO participants to allocate resources for the long-term growth and prosperity of the Nouns ecosystem.
+
 ## Roadmap
 
 These Degens are just getting started. Possible next steps and additonal features include:
