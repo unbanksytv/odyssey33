@@ -1,4 +1,4 @@
-
+Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. 
 
 # Degen Vibes
 
@@ -33,12 +33,7 @@ Degen Vibes are currently on testnet. The plan for a mainnet launch would includ
 
 ## Degen Traits
 
-Degen Vibes are composed of multiple traits, including:
-
-- bodies (tbd)
-- accessories (tbd)
-- headwear (tbd)
-- glasses (tbd)
+They represent the brand DNA we cultivated over the past 25 years with LiveTheLifeTV. They showcase our passion for surf, film, photography, etc, ... These characters are playful, they appeal to our culture code, & they tap into our deep-seated love of DAOs, NFTs, and DeFi. They hold the visions of the Degen Vibes we enjoy. We generated a 10K collection based on the Nouns traits that are fully aligned with the LiveTheLifeTV brand DNA: surf, skate, wine, film, and photography. We tweaked the backgrounds with photography-based visuals, and color-graded them through a "multiply" layer. 
 
 ## Degenerative Artwork
 
@@ -46,20 +41,21 @@ Degen Vibes are degens in the same spirit as the Cryptopunks. We call it _degene
 
 Art Work may be submitted and voted on by the club, with winning artists earning a cut. Stay tuned.
 
+cc0 places emphasis on our ability to communicate a story, build a world and bring others along.
+
 ## Roadmap
 
 These Degens are just getting started. Possible next steps and additonal features include:
 
-- Gather a team!
 - Gas cost optimizations
 - Feature: every 52 days, a prize from the treasury earned by a random Degen owner.
 - Feature: a pre-auction tool where artists can submit Art and the community can vote on which Degns are minted to the collection (portion of proceeds to artists).
-- Explore other DeFi options (OLympusDAO, Aave, Balancer, Yearn, etc.)
+- Explore other DeFi options (OLympusDAO, JonesDAO, Dopex, Aave, Balancer, Yearn, etc.)
 - Explore and simulate incentivized tokenomics models
 - Smart contract refinements to support fully decentralized operation
-- DAO governance implementation
-- Support for resale auctions in the dapp
-- Mainnet launch!
+- DAO governance implementation (Tally Integration)
+- Support for resale auctions in the dapp (marketplace)
+- Mainnet launch! 🐻⛓️ thoon
 
 ## Technical Details
 
