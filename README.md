@@ -1,4 +1,4 @@
-Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. Degen Vibes are NFTs that stream DeFi tokens to holders in real-time. Degen Vibes are minted and sold via auction, one at a time. A portion of auction proceeds are invested in DeFi and streamed to collectors. A portion of proceeds are kept in the treasury, controlled by a DAO of Degens.
+Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. Degen Vibes are NFTs that stream DeFi tokens to holders in real-time. Degen Vibes are minted and sold via auction, one at a time. A portion of auction proceeds are invested in DeFi and streamed to collectors. A portion of proceeds are kept in the treasury, controlled by a DAO of Degens. The initial plan is for the auction cadence to settle at one per 24 hours after the first 50. But this ongoing cadence could be changed by the DAO if members vote to do so. Streamonomics refers to the tokenomics of streaming tokens to multiple recipients as an incentive mechanism.
 
 # Degen Vibes
 
@@ -79,3 +79,26 @@ The front-end dapp is hosted on Fleek decentralized storage. (Alternatively, the
 The dapp primarily interfaces with the Auction House contract. User can connect their wallet, submit bids and settle auctions, which triggers the minting of a new Degen and starts a new auction. The dapp also displays the cDAI balances of the treasury and connected user, showing the real-time changes as funds are streamed out of the treasury to Degen owners.
 
 The goal of the project is merge NFTs and DeFi in a way that hopefully provides some incentivizing tokenomics that could fuel an active community of Degen owners. A future feature could be a way for artists to submit new Art Works, and the community can vote for which Art will get minted as part of the collection, with a portion of auction proceeds streaming to artists. A governing Dog DAO might decide to change the investment and stream distribution strategies.
+
+## Founder Rewards
+
+Because 100% of Degen Dog auction proceeds are split between streams to Dog owners, donations to charitable causes, and the DAO treasury, founder(s) are compensated with Degen Dogs. Every 11th Dog for the first year of the project (ids #0, #11, #22, #33 and so on) will be automatically sent to the dogMaster multisig to be shared among the founding members of the project. Founder distributions don't interfere with the cadence of auctions. Dogs are sent directly to the dogMaster Multisig, and auctions continue on schedule with the next available ID.
+
+## Governance
+
+To submit a proposal to the DAO, you must hold at least 0.25% of the total Degen supply. This equates to 1 Degen up until the supply reaches 400 Degens. Examples of proposals include:
+- funding Degen community projects
+- compensating DAO members or 3rd parties for services that benefit the DAO
+- investing treasury funds
+
+A quorum is the minimum number of total votes -- whether for, against, or abstain -- needed for a proposal to succeed. The quorum threshold is 20% -- a value that can be changed by DAO. This means that at least 20% of minted Dogs (at the time the proposal was made) must submit a vote. Proposals that do not meet this threshold will not be executed, regardless of the number of votes for and against the proposal.
+
+Voting can begin immediately after a proposal is created, although the DAO could implement a delay between proposal creation and the start of voting, if desired. The voting period is approximately 7 days. 
+
+A Timelock is a delay between the end of the voting period for a successful proposal and when the proposed transaction(s) actually can be executed. This delay gives DAO members time to react before execution. For example, a DAO member who is unhappy with a proposal may decide to sell their token or take other steps they deem appropriate. The timelock delay for Degen Dogs is 2 days.
+
+The thresholds and time periods mentioned above are settings that can be adjusted by the DAO via proposals. For example, the DAO may decide to change the proposal threshold or the length of the voting period in future.
+
+Initially, the Degen DAO governance grants veto power to the founder(s) of the project. A key reason is that, due to the one-at-a-time auction process, the total supply of minted Dogs is very low in the early days. This could enable a single person to execute successful proposals before the community has had chance to grow and develop.  The goal is for the veto power to be renounced (on-chain) at the appropriate time -- feedback and suggestions are welcomed in this regard.
+
+Tally provides a governance UI that DAO can use to submit and vote on proposals. Proposals and votes submitted via Tally get submitted on-chain to Degen DAO governance contracts and are subject to the above thresholds and time periods. 
