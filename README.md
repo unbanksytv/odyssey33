@@ -1,3 +1,5 @@
+
+
 # Degen Vibes
 
 Degen Vibes combine NFTs with DeFi. The degenerative art is inspired by Cryptopunks. The treasury aspect is inspired by Nouns. The DeFi and money streams aim to explore a new community that collides the worlds of NFTs and DeFi. Grab your Dog and join the Club.
