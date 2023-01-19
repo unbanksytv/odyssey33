@@ -102,3 +102,7 @@ The thresholds and time periods mentioned above are settings that can be adjuste
 Initially, the Degen DAO governance grants veto power to the founder(s) of the project. A key reason is that, due to the one-at-a-time auction process, the total supply of minted Dogs is very low in the early days. This could enable a single person to execute successful proposals before the community has had chance to grow and develop.  The goal is for the veto power to be renounced (on-chain) at the appropriate time -- feedback and suggestions are welcomed in this regard.
 
 Tally provides a governance UI that DAO can use to submit and vote on proposals. Proposals and votes submitted via Tally get submitted on-chain to Degen DAO governance contracts and are subject to the above thresholds and time periods. 
+
+## Treasury 
+
+The Degen Treasury is contracts that holds the tokens of the DAO and executes the transactions approved by the DAO, after the timelock delay has passed.  For these reasons, the contract can also be referred to a Timelock or Executor. The contract itself is based on the timelock/executor contract of Nouns DAO, which in turn is is a modified version of Compound Lab's Timelock. The "admin" of the Treasury is set to the DAO Governance contract, meaning that a successful governance proposal is required for all transactions. 
