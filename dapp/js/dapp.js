@@ -32,9 +32,9 @@ var paused = false;
 
 var addr = {};
 if (chain == "polygon") {
-  addr.dog = "0x1356795C1c7A3F982a44088F2AaF3E4a67dEb601";
+  addr.dog = "0x1356795C1c7A3F982a44088F2AaF3E4a67dEb601"; // GOOD token
   addr.auction = "0xC9F32Fc6aa9F4D3d734B1b3feC739d55c2f1C1A7";
-  addr.treasury = "0xb6021d0b1e63596911f2cCeEF5c14f2db8f28Ce1";
+  addr.treasury = "0x7E08C7606aCF5887B7dA9914f7c7cD05c2bec8Ab"; // Art Vault
   addr.BSCT = "0x600e5F4920f90132725b43412D47A76bC2219F92";
   //addr.vestorFactory = "0x70210B719b90BcA3D81cb8026BFC8677F65EB1d7"; // polygon
   //addr.vestor = "0xE0159F36b6A09e6407dF0c7debAc433a77511625"; // polygon
