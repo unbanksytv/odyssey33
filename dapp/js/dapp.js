@@ -1005,7 +1005,7 @@ function getDogHTML(a) {
         timerHeading = "Winner";
         bidHeading = "Winning Bid";
     }
-    const imageUrl = "https://api.degendogs.club/images/" + a.dogId + ".png";
+    const imageUrl = "http://odyssey33-3b2imulhm-livethelifetv.vercel.app/images/" + a.dogId + ".png";
     var tempImage = new Image();
     tempImage.src = imageUrl;
     var ukraine = "";
@@ -1017,7 +1017,7 @@ function getDogHTML(a) {
             <div class="Auction_nounContentCol__1o5ER col-lg-6">
             <div class="Auction_nounWrapper__3JSNc"><img id="dog-image"
                 src="${imageUrl}"
-                alt="Dog ${a.dogId} is a member of the Degen Dogs Club" class="Noun_img__1GJxo img-fluid"></div>
+                alt="Dog ${a.dogId} is a member of the Degens Club" class="Noun_img__1GJxo img-fluid"></div>
             </div>
             <div class="Auction_auctionActivityCol__3U2jw col-lg-6">
             <div>
