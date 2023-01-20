@@ -32,7 +32,7 @@ var paused = false;
 
 var addr = {};
 if (chain == "polygon") {
-  addr.dog = "0xA920464B46548930bEfECcA5467860B2b4C2B5b9";
+  addr.dog = "0x1356795C1c7A3F982a44088F2AaF3E4a67dEb601";
   addr.auction = "0xC9F32Fc6aa9F4D3d734B1b3feC739d55c2f1C1A7";
   addr.treasury = "0xb6021d0b1e63596911f2cCeEF5c14f2db8f28Ce1";
   addr.BSCT = "0x600e5F4920f90132725b43412D47A76bC2219F92";
