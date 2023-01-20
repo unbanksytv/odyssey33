@@ -1116,7 +1116,7 @@ function wrongNetworkModal(){
                         <li>Click the network select dropdown</li>
                         <li>Click on "Matic Mainnet" or "Polygon"</li>
                     </ol>
-                    <p><strong>Not seeing it?</strong> <a href="https://docs.degendogs.club/basics/auctions#getting-weth-on-polygon" target="_blank">Click here</a>.
+                    <p><strong>Not seeing it?</strong> <a href="https://livethelife.tv" target="_blank">Click here</a>.
                 </div>
             </div>
         </div>
