@@ -52,11 +52,11 @@ These Degens are just getting started. Possible next steps and additonal feature
 - Gas cost optimizations
 - Feature: every 52 days, a prize from the treasury earned by a random Degen owner.
 - Feature: a pre-auction tool where artists can submit Art and the community can vote on which Degns are minted to the collection (portion of proceeds to artists).
-- Explore other DeFi options (OLympusDAO, JonesDAO, Dopex, Aave, Balancer, Yearn, etc.)
+- Explore other DeFi options (OlympusDAO, JonesDAO, Dopex, Aave, Balancer, etc.)
 - Explore and simulate incentivized tokenomics models
 - Smart contract refinements to support fully decentralized operation
 - DAO governance implementation (Tally Integration)
-- Support for resale auctions in the dapp (marketplace)
+- Support for resale auctions in the dapp (V1/V2 marketplace mvp)
 - Mainnet launch! 🐻⛓️ thoon
 
 ## Technical Details
@@ -74,7 +74,7 @@ The Degen contract leverages OpenZeppelin contracts to provide standard ERC721 f
 - After 365 days, anyone can act as a "closer", and send a transaction to close the streams that are eligible. An instant (not streamed) reward equivalent to 30 days of flow is earned.
 - When a Degen is sold or transferred, the streams are redirected automatically to the new owner.
 
-The front-end dapp is hosted on Fleek decentralized storage. (Alternatively, the "Deploy to Skynet" Github Action made deploying the dapp super-easy, something I did at least 126 times during development!
+The front-end dapp is hosted on Fleek decentralized storage. (Alternatively, the "Deploy to Skynet" Github Action can make deploying the dapp super-easy!)
 
 The dapp primarily interfaces with the Auction House contract. User can connect their wallet, submit bids and settle auctions, which triggers the minting of a new Degen and starts a new auction. The dapp also displays the cDAI balances of the treasury and connected user, showing the real-time changes as funds are streamed out of the treasury to Degen owners.
 
@@ -89,7 +89,7 @@ Because 100% of Degen Dog auction proceeds are split between streams to Dog owne
 To submit a proposal to the DAO, you must hold at least 0.25% of the total Degen supply. This equates to 1 Degen up until the supply reaches 400 Degens. Examples of proposals include:
 - funding Degen community projects
 - compensating DAO members or 3rd parties for services that benefit the DAO
-- investing treasury funds
+- investing treasury funds through onchain governance
 
 A quorum is the minimum number of total votes -- whether for, against, or abstain -- needed for a proposal to succeed. The quorum threshold is 20% -- a value that can be changed by DAO. This means that at least 20% of minted Dogs (at the time the proposal was made) must submit a vote. Proposals that do not meet this threshold will not be executed, regardless of the number of votes for and against the proposal.
 
