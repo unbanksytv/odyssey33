@@ -40,8 +40,8 @@ if (chain == "polygon") {
   //addr.vestor = "0xE0159F36b6A09e6407dF0c7debAc433a77511625"; // polygon
   addr.vestorFactory = "0x70dd79Dc80e7aeCD00445F5827744397ee7F256E"; // v2
   addr.vestor = "0x98A63F98E9B952B5C6CCBA47C631461388e78d7A"; // v2
-  addr.donation = "0x22B5CD016C8D9c6aC5338Cc08174a7FA824Bc5E4"; // polygon --> Unchain Ukraine
-  addr.unchain = "0xb37b3b78022E6964fe80030C9161525880274010"; // polygon gnosis safe for Unchain Ukraine
+  addr.donation = "0x7E08C7606aCF5887B7dA9914f7c7cD05c2bec8Ab"; // polygon --> Art Vault
+  addr.unchain = "0x7E08C7606aCF5887B7dA9914f7c7cD05c2bec8Ab"; // polygon gnosis safe for Art Vault
   addr.WETH = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"; // polygon
   addr.idleWETH = "0xfdA25D931258Df948ffecb66b5518299Df6527C4"; // polygon
   addr.idleWETHx = "0xEB5748f9798B11aF79F892F344F585E3a88aA784"; // polygon
@@ -464,7 +464,7 @@ async function currentAuction(thisDog) {
     const imageUrl = "https://api.degendogs.club/images/" + a.dogId + ".png";
     var tempImage = new Image();
     tempImage.src = imageUrl;
-    $("#dog-image").attr("src", imageUrl).attr("alt", "Dog " + a.dogId + " is a member of the Degen Dogs Club");
+    $("#dog-image").attr("src", imageUrl).attr("alt", "Dog " + a.dogId + " is a member of the Degens Club");
     $("#dog-title").text("Dog " + a.dogId);
     var date = moment.utc(a.startTime, "X").format("MMMM D YYYY");
     $("#dog-date").text(date);
@@ -1109,7 +1109,7 @@ function wrongNetworkModal(){
                     <div class="modal-title h4">Wrong Network Detected</div>
                 </div>
                 <div class="modal-body">
-                    <p>Degen Dogs Clubs is on the Polygon Network.</p>
+                    <p>Degens Clubs is on the Polygon Network.</p>
                     <p><b>To get started, please switch your network by following the instructions below:</b></p>
                     <ol>
                         <li>Open Metamask</li>
