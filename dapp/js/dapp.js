@@ -1005,7 +1005,7 @@ function getDogHTML(a) {
         timerHeading = "Winner";
         bidHeading = "Winning Bid";
     }
-    const imageUrl = "http://odyssey33-3b2imulhm-livethelifetv.vercel.app/images/" + a.dogId + ".png";
+    const imageUrl = "https://api.degendogs.club/images/" + a.dogId + ".png";
     var tempImage = new Image();
     tempImage.src = imageUrl;
     var ukraine = "";
