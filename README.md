@@ -3,7 +3,7 @@
 image credit: @messhup
 
 Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance, and a treasury that can be used by the community. Degen Vibes are NFTs that stream DeFi tokens to holders in real-time. Degen Vibes are minted and sold via auction, one at a time. A portion of auction proceeds are invested in DeFi and streamed to collectors. A portion of proceeds are kept in the treasury, controlled by a DAO of Degens. The initial plan is for the auction cadence to settle at one per 24 hours after the first 50. But this ongoing cadence could be changed by the DAO if members vote to do so. Streamonomics refers to the tokenomics of streaming tokens to multiple recipients as an incentive mechanism. Inspired by OHM but with an infinite supply NFT collection with generative art on top of sudoswap liquidity? Sounds very Degen tbh
-=======
+
 # Summary
 
 Planet Degen is dying due to neglect of the environment and overuse of natural resources. Climate change has caused severe damage and only 3,333 Degens remain as the only known surviving inhabitants. The Degens are now turning to on-chain carbon markets, specifically KlimaDAO, as a solution to fix the issue. They are also auctioning off their species, called Degen Vibes, on the Polygon network in WETH to raise funds for their survival. Proceeds from the auction are invested in DeFi to earn yield for Degen owners. Members of the Degen Vibes community, who are also members of the DAO, control the treasury and decide the future of the species through voting on proposals. The first two proposals include deploying modified contracts and reserving a percentage of the treasury to add liquidity to the VIBES/OHM pair.
@@ -36,7 +36,6 @@ Planet Degen is dying. The inhabitants of the planet have neglected the environm
 Most species of life have suffered from mass extinction. The only known surviving inhabitants are 3,333 Degens. But the Degen Vibes cannot survive for long on the surface. Their only hope is to descend, one by one, to the LTL Art Collective, the OG CLUB. The only entrance to the DegenVibes CLUB, deep below the planet's surface, is via an elevator that has space for only one Degen at a time.
 
 As time passes, more and more Degens will join the CLUB, forming a DAA. Together the Degens must plan for the survival of the species. How to best use the limited supply of GOOD VIBES to sustain themselves? Can they develop tools and accessories to reverse climate change and heal the planet? Or should they develop spaceships and related technology, to embark on a space voyage in search of a new hOHM? And could the rumors be true, that some of the Ohmies have managed to survive as well? Members of the Degen Vibes CLUB will have to decide where the Odyssey goes from here...
->>>>>>> afa951d (update)
 
 # Degen Vibes
 
@@ -162,8 +161,6 @@ Tally provides a governance UI that DAO can use to submit and vote on proposals.
 ## Treasury 
 
 The Degen Treasury is contracts that holds the tokens of the DAO and executes the transactions approved by the DAO, after the timelock delay has passed.  For these reasons, the contract can also be referred to a Timelock or Executor. The contract itself is based on the timelock/executor contract of Nouns DAO, which in turn is is a modified version of Compound Lab's Timelock. The "admin" of the Treasury is set to the DAO Governance contract, meaning that a successful governance proposal is required for all transactions. 
-<<<<<<< HEAD
-=======
 
 # POL consensus 
 
@@ -172,5 +169,3 @@ Designed to ensure that there is always enough liquidity in the system to facili
 The DAO treasury aims to own almost all of the liquidity of its token. This grants two major benefits to the DAO. Firstly, it grows the treasury value via the trading fees collected. Secondly, it allows for user security as there will always be ever-deepening trading liquidity for those that wish to increase or reduce their holdings.
 
 
-
->>>>>>> afa951d (update)
